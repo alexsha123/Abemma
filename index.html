@@ -73,7 +73,7 @@
     </audio>
     
     <div class="container" id="main-content">
-        <h1 class="question">Abemmmaa, yroda ngboo.....❤️</h1>
+        <h1 class="question">pookie kya tum mujhe pasnad karti ho???</h1>
         <div class="buttons">
             <button class="yes" onclick="accepted()">Yes</button>
             <button class="no" onmouseover="moveButton(this)">No</button>
@@ -84,8 +84,8 @@
         function accepted() {
             document.getElementById("main-content").innerHTML = `
                 <div style="text-align: center; margin-top: 20vh;">
-                    <h1 style="color:green; font-size: 28px;">Nahnna yaba yrineba sungya yabideba....Yrabanina koirani hwjikT ehehehhehhe💖.</h1>
-                    <p style="font-size: 20px; color: white;">NungCbne AbemmaD ehheeh..... 💕</p>
+                    <h1 style="color:green; font-size: 28px;">ik tumi accept kriba babe , thnx😘💖.</h1>
+                    <p style="font-size: 20px; color: white;">muuuwahhhh💕</p>
                     <div id="hearts"></div>
                 </div>`;
             generateHearts();
@@ -105,7 +105,7 @@
             for (let i = 0; i < 20; i++) {
                 let heart = document.createElement("div");
                 heart.className = "heart";
-                heart.innerHTML = "❤️";
+                heart.innerHTML = "🎀";
                 heart.style.left = Math.random() * 100 + "vw";
                 heart.style.animationDuration = (Math.random() * 2 + 3) + "s";
                 document.body.appendChild(heart);
